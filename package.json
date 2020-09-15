@@ -1,0 +1,26 @@
+{
+  "name": "openshift-sampleapp-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senyoltw/openshift-sampleapp-nodejs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senyoltw/openshift-sampleapp-nodejs/issues"
+  },
+  "homepage": "https://github.com/senyoltw/openshift-sampleapp-nodejs#readme"
+}
