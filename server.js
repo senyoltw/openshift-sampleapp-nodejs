@@ -1,8 +1,8 @@
 const https = require('https');
 const http = require('http');
 const fs = require('fs');
-const ssl_server_key = 'tls.key';
-const ssl_server_crt = 'tls.crt';
+const ssl_server_key = '/mnt/secret/tls.key';
+const ssl_server_crt = '/mnt/secret/tls.crt';
 
 const port = 8080;
 
